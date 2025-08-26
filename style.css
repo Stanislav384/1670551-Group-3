@@ -28,6 +28,7 @@ body{
     align-items:end;
     gap: 30px;
     font-size: 16px;
+    margin-left: 5%;
     
     
 }
@@ -41,7 +42,7 @@ body{
 .logo{
    
     margin-bottom: -27px;
-    margin-left: 4%;
+    margin-left: 50%;
     cursor: pointer;
     
 }
@@ -49,7 +50,7 @@ body{
 .other {
     position: absolute; 
     top: 2%;          
-    left: 75%;      
+    left: 78%;      
     display: flex;
     gap: 20px;
     font-size: 14px;
@@ -70,6 +71,7 @@ body{
     border: 0.5px solid rgba(0, 0, 0, 0.15);
     height: 580px;
     visibility: hidden;
+    text-decoration: none;
    
 
 }
@@ -86,7 +88,8 @@ body{
     column-gap: 7%;                         
     row-gap: 3px;  
     padding-left: 10%; 
-    padding-top: 30px;                      
+    padding-top: 30px;  
+                       
 }
 
 .menu_preview {
@@ -98,7 +101,10 @@ body{
     padding: 5px 10px;
     width: fit-content;   
     height: 78px;       
-    box-sizing: border-box;     
+    box-sizing: border-box; 
+    cursor: pointer;    
+    text-decoration: none; 
+    color:rgb(41, 41, 41) ;
 }
 
 .menu_preview img {
@@ -124,6 +130,10 @@ body{
     border-color: rgb(173, 173, 173);
     border-width: 1px;
     box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, .08);
+    cursor: pointer;
+    text-decoration: none;
+    color:rgb(41, 41, 41) ;
+
 }
 
 .btn1:hover{
@@ -136,5 +146,6 @@ body{
 .arrow-img.rotated {
     transform: rotate(180deg);
     transition: transform 0.3s;
+    
 }
 
