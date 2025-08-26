@@ -5,4 +5,136 @@
 
 body{
     background-color: white;
+    font-family: "main_font.ttf", sans-serif;
+    color: rgb(41, 41, 41);
+} 
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items:end;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 30px;
+    gap: 60px;
+    box-shadow: 3px 3px 3px rgba(236, 236, 236, 0.5);
+    z-index: 1;
+    
+    
 }
+
+.elements{
+    display: flex;
+    align-items:end;
+    gap: 30px;
+    font-size: 16px;
+    
+    
+}
+
+.el{
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+
+}
+
+.logo{
+   
+    margin-bottom: -27px;
+    margin-left: 4%;
+    cursor: pointer;
+    
+}
+
+.other {
+    position: absolute; 
+    top: 2%;          
+    left: 75%;      
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+
+#locate{
+    text-decoration:underline;
+    color: #006bae;
+}
+
+.drop_menu{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 3px rgba(236, 236, 236, 0.5), 
+                0 -2px 3px rgba(236, 236, 236, 0.5);
+    z-index: 2;
+    border-radius: 7px;
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+    height: 580px;
+    visibility: hidden;
+   
+
+}
+
+
+
+.items {
+
+
+    display: grid;
+    grid-template-rows: repeat(5, auto);  
+    grid-auto-flow: column;                
+    grid-auto-columns: max-content;       
+    column-gap: 7%;                         
+    row-gap: 3px;  
+    padding-left: 10%; 
+    padding-top: 30px;                      
+}
+
+.menu_preview {
+    display: flex;        
+    align-items: center;        
+    justify-content: flex-start;  
+    gap: 15px;
+    /* background-color: gray; */
+    padding: 5px 10px;
+    width: fit-content;   
+    height: 78px;       
+    box-sizing: border-box;     
+}
+
+.menu_preview img {
+    width: 78px;
+    height: 78px;
+    gap: 10px;
+}
+
+.btn1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.5%;
+    border-radius: 5px;
+
+    width: 18.5%;
+    height:8.4% ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+    border-width: 1px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, .08);
+}
+
+.btn1:hover{
+  box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, .2);  
+}
+
+.arrow-img {
+    transition: transform 0.3s;
+}
+.arrow-img.rotated {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+}
+
