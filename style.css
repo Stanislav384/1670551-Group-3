@@ -66,13 +66,14 @@ body{
     background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 3px rgba(236, 236, 236, 0.5), 
                 0 -2px 3px rgba(236, 236, 236, 0.5);
-    z-index: 2;
     border-radius: 7px;
     border: 0.5px solid rgba(0, 0, 0, 0.15);
     height: 580px;
     visibility: hidden;
     text-decoration: none;
-   
+    width: 99.9%;
+    position: absolute;
+    z-index: 999;
 
 }
 
@@ -149,3 +150,5 @@ body{
     
 }
 
+
+/* цей CSS тільки для header i footer для іншої сторінки інший CSS файл */
