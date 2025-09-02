@@ -1,0 +1,179 @@
+
+.Mobile_1_div{
+    text-align: center; 
+    text-decoration: solid;
+    width: 1170px;
+    height: 81px;
+    display: flex;
+}
+
+.Mobile_1_div_pictures{
+    width: 1170px;
+    height: 522.33px;
+    align-items: center;
+}
+
+
+
+h1 {
+    font-weight: 700;
+}
+h2{
+    font-weight: 700;
+} 
+h3{
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.Mobile_1_big_div{
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.Mobile_1_big_div h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.Mobile_1_div_pictures img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Mobile_2_div  {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.Mobile_2_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+}
+
+.Mobile_2_div img {
+    max-width: 300px;
+}
+
+.Mobile_2_div h2 {
+    font-size: 2rem;
+}
+
+.Mobile_2_div p {
+    max-width: 600px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.Mobile_3_big_div {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.Mobile_3_big_div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.Mobile_3_div {
+    flex: 1;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.Mobile_3_div img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Mobile_3_div h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.Mobile_3_div p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.Mobile_polityka_konfidencijnosti{
+    padding: 40px 10%;
+    text-align: center;
+}
+.Mobile_mini_logo
+.Mobile_Детальніше {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid #292929;
+    color: #292929;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Mobile_Детальніше:hover {
+    background-color: #292929;
+    color: #ffffff;
+}
+
+.Mobile_polityka_konfidencijnosti {
+    background-color: #f0f0f0;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+
+.Mobile_footer_oll {
+    background-color: #292929;
+    color: #ffffff;
+    padding: 40px 10%;
+}
+
+.Mobile_footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.Mobile_footer h3 {
+    color: #ffbc0d;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.Mobile_footer a {
+    display: block;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+.Mobile_footer a:hover {
+    color: #ffffff;
+}
+
+
+footer p {
+    font-size: 0.9rem;
+    color: #aaa;
+}

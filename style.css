@@ -150,5 +150,8 @@ body{
     
 }
 
-
+.Mobile_mini_logo {
+    width: 40px;
+    margin-bottom: 10px;
+}
 /* цей CSS тільки для header i footer для іншої сторінки інший CSS файл */
