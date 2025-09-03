@@ -84,7 +84,7 @@ body{
 
     display: grid;
     grid-template-rows: repeat(5, auto);  
-    grid-auto-flow: column;                
+    grid-auto-flow:column;                
     grid-auto-columns: max-content;       
     column-gap: 7%;                         
     row-gap: 3px;  
