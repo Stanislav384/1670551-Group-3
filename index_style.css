@@ -1,12 +1,11 @@
 .slider_images {
     position: relative;
     width: 93%;
-    height: 600px; /* або бажана висота */
+    height: 600px; 
     margin: 0 auto;
 }
 
 .slider_img {
-    background-color: gray;
     display: block;
     position: absolute;
     top: 60px;
@@ -19,32 +18,34 @@
 
 .switch_panel {
     position: absolute;
-    left: 20%;
-    top: 60%;
-    transform: translate(-50%, -50%);
+    left: 4%;
+    bottom: 20px;
     width: 380px;
-    height: 410px;
     background-color: rgb(255, 255, 255);
     z-index: 3;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+    box-sizing: border-box;
+    gap : 30px
 }
 
 
 .dot {
-    display: block;
-    width: 7px;
-    height: 7px;
-    background-color: black;
+    cursor: pointer;
+    display: inline-block;
+    width: 6px;
+    aspect-ratio: 1/1;
+    background-color: rgb(138, 138, 138);
     border-radius: 50%;
     flex-shrink: 0;
-    padding: 0;
     margin: 0;
     border: none;
     box-sizing: border-box;
-    overflow: hidden;
-    font-size: 0;
     vertical-align: middle;
-    text-decoration: none;
+
 }
 .line1{
     display: block;
@@ -67,5 +68,184 @@
 .controls {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+
+#dot1{
+    background-color: rgb(0, 0, 0);
+}
+
+.button{
+    background-color: #ffbc0d;
+    height: 50px;
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    text-decoration: none;
+    color: black
+}
+
+.text2{
+    gap: 20px;
+}
+
+
+.text1 img {
+    vertical-align: middle;
+}
+
+.block1_img{
+    width: 60%;
+    height: 60%;
+    margin-left:5% ;
+    margin-top: 90px;
+   
+}
+.block1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: -100px;
+    /* background-color: gray; */
+}
+.block1_block{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 30%;
+    margin-left: 6%;
+}
+.block1_btn{
+    background-color: #ffbc0d;
+    height: 50px;
+    width:180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    text-decoration: none;
+    color: black
+}
+.p_block1{
+    font-size: 16px;
+}
+
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    margin-left: -4%;
+}
+
+.block2_block{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 30%;
+}
+
+.block2_img{
+    width: 60%;
+    height: 60%;
+    margin-right:-5% ;
+    margin-top: 90px;
+}
+
+.block2_btn{
+    background-color: #ffbc0d;
+    height: 50px;
+    width:180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    text-decoration: none;
+    color: black
+}
+
+
+.block3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: -100px;
+}
+
+.block3_block{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 70%;
+    margin-left: 0%;
+}
+
+.block3_img{
+    width: 35%;
+    height: 35%;
+    margin-left: 10%;
+}
+
+.h1_block3{
+    font-size: 55px;
+}
+
+.app_store_img{
+    width: 15%;
+    height: 15%;
+}
+
+.google_play_img{
+    width: 15%;
+    height: 15%;
+}
+
+.app_install_block{
+    margin-top:-20px ;
+}
+
+.p_block2{
+    font-size: 16px;
+}
+h1{
+    font-weight: 700;
+}
+
+.block4{
+    display: flex;
+    align-items: flex-start; /* Вирівнює всі блоки по верхньому краю */
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    margin-left: -4%;
+}
+
+.block4_1,
+.block4_2,
+.block4_3 {
+    width: 160px; /* така ж як у фото */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block4 img {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    border: none;
+    background: none;
 }
