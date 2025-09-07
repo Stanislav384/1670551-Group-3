@@ -54,13 +54,15 @@ a {
 
 .Mobile_2_div {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+    justify-content: center;
+    align-items:center;
     width: 100%;
-    background-color: #fff;
 }
-
+.Mobile_2_div_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 .Mobile_2_div h2 {
