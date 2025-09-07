@@ -224,28 +224,70 @@ h1{
     display: flex;
     align-items: flex-start; /* Вирівнює всі блоки по верхньому краю */
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     margin-bottom: 50px;
-    margin-left: -4%;
+    
 }
 
 .block4_1,
 .block4_2,
 .block4_3 {
-    width: 160px; /* така ж як у фото */
+    width: 380px;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: flex-start; /* Вирівнює по лівому краю */
     padding: 0;
     box-sizing: border-box;
+    gap: 20px;
 }
 
-.block4 img {
-    width: 160px;
-    height: 100px;
+.block4_1_img {
+    width: 380px;
+    height: 237px;
     object-fit: cover;
     display: block;
     margin: 0;
     border: none;
     background: none;
+}
+
+.block4_1 h2,
+.block4_2 h2,
+.block4_3 h2,
+.block4_1 p,
+.block4_2 p,
+.block4_3 p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    /* height: auto;  Прибрати фіксовану висоту! */
+}
+
+.block4_1_btn {
+    background-color: #ffbc0d;
+    width: 144px; /* фіксована ширина */
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    align-self: flex-start; /* не розтягується */
+    margin-top: 10px;
+}
+
+
+.block4_1 h2,
+.block4_2 h2,
+.block4_3 h2{
+    height:60px;
+}
+
+.block4_1 p,
+.block4_2 p,
+.block4_3 p {
+    height:80px;
 }
