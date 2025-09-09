@@ -1,10 +1,11 @@
 
 .Mobile_1_div{
-    text-align: center; 
     text-decoration: solid;
-    width: 1170px;
+    width: 100%;
     height: 81px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Mobile_1_div_pictures{
@@ -31,11 +32,14 @@ a {
 }
 
 .Mobile_1_big_div{
-    padding: 40px 10%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .Mobile_1_big_div h1 {
+    text-align: center;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -47,22 +51,19 @@ a {
     border-radius: 10px;
 }
 
-.Mobile_2_div  {
-    padding: 40px 10%;
-    text-align: center;
-}
 
 .Mobile_2_div {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+}
+.Mobile_2_div_text{
+    display: flex;
     align-items: center;
-    gap: 15px;
-    background-color: #fff;
+    flex-direction: column;
 }
 
-.Mobile_2_div img {
-    max-width: 300px;
-}
 
 .Mobile_2_div h2 {
     font-size: 2rem;
@@ -117,18 +118,17 @@ a {
     padding: 40px 10%;
     text-align: center;
 }
-.Mobile_mini_logo
-.Mobile_Детальніше {
+.Mobile_more {
     display: inline-block;
     padding: 10px 25px;
     border: 2px solid #292929;
     color: #292929;
     border-radius: 5px;
     font-weight: 700;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: 0.3s ease, color 0.3s ease;
 }
 
-.Mobile_Детальніше:hover {
+.Mobile_more:hover {
     background-color: #292929;
     color: #ffffff;
 }
