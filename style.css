@@ -49,7 +49,7 @@ body{
 
 .other {
     position: absolute; 
-    top: 2%;          
+    top: 20px;          
     left: 78%;      
     display: flex;
     gap: 20px;
@@ -155,3 +155,114 @@ body{
     margin-bottom: 10px;
 }
 /* цей CSS тільки для header i footer для іншої сторінки інший CSS файл */
+
+
+.menu {
+    width: 100vw;
+    min-width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgba(236, 236, 236, 0.5);
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+.menu-content {
+    max-width: 1400px; 
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: end;
+    gap: 60px;
+}
+
+.info_txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;   /* центрує елементи по горизонталі */
+    align-items: left;       /* центрує по вертикалі */
+    gap: 10%;                 /* простір між колонками */
+    padding-left: 55px ;
+    padding-top: 100px;           /* простір зверху і знизу */
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: left;
+    padding-top:20px;
+}
+
+.more_info{
+     display: flex;
+    flex-direction: row;
+}
+
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    /* width: 16%; */
+    width: 190px;
+}
+
+.connections_info{
+
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 55px ;
+}
+
+.apps{
+    padding-left: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.line2 {
+    border-top: 1px solid rgba(0, 0, 0, 0.215);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+
+    margin-left: auto;   
+    margin-right: auto;  
+}
+
+.more_info{
+    display: flex;
+    flex-direction: row;
+    padding-left: 55px ;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.el_4_2{
+    padding-left: 40px;
+}
+
+.el_4_4{
+    padding-left: 10px;
+}
+
+.el_4_3{
+    padding-left: 400px;
+}

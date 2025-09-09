@@ -1,3 +1,12 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
 .slider_images {
     position: relative;
     width: 93%;
@@ -223,9 +232,10 @@ h1{
 .block4{
     display: flex;
     align-items: flex-start; /* Вирівнює всі блоки по верхньому краю */
-    justify-content: center;
+    justify-content: left;
     gap: 25px;
     margin-bottom: 50px;
+    margin-left: 4%;
     
 }
 
@@ -291,3 +301,11 @@ h1{
 .block4_3 p {
     height:80px;
 }
+
+.main-container {
+    max-width: 1400px; /* або 1200px, як вам потрібно */
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+}
+
