@@ -1,0 +1,149 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.other_food {
+    width: 19%;
+    height: 1300px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.265);
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    border-radius: 5px;
+    gap: 10px; 
+    border-width: 1px;
+    margin-top: 20px;
+    box-shadow: 
+    0  2px 3px rgba(236, 236, 236, 0.5), 
+    0  2px 3px rgba(236, 236, 236, 0.5);
+}
+
+
+.element, .element2{
+    display: flex;            
+    align-items: center;  
+    gap: 8px;                
+    text-decoration: none;  
+    color: inherit;          
+    font-size: 17px;         
+    line-height: 1.2;          
+}
+
+.element img, .element2 img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+
+
+.menu_main{
+    
+    height: 90px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.265);
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    padding-left: 10px;
+    padding-right: 10px ;
+    border-radius: 5px;
+    gap: 10px; 
+    border-width: 1px;
+    margin-top: 100px;
+    width: 18.7%;
+    border-left: 5px solid red;
+    box-shadow: 
+    0  2px 3px rgba(236, 236, 236, 0.5), 
+    0  2px 3px rgba(236, 236, 236, 0.5);
+
+
+}
+
+.select_row{
+    height: 1000px;
+    background-color: #d90007;
+}
+
+.dishes{
+
+    position: relative; 
+    top: -1420px;
+    left: 54%;  
+    width:40%;
+    height: 130px;
+   
+
+}
+
+.title{
+    font-size: 54px;
+ 
+    width: 50%; 
+}
+
+.under_title{
+
+    font-size: 36px;
+    margin-top: 35px;
+    margin-left: -6%; 
+    width: 50%;
+}
+
+.items22 {
+  display: grid;                      
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;                             
+  max-width: 900px;                       
+  margin: 0 auto;    
+  margin-left: -70%;    
+  row-gap: 70px;     
+    
+}
+
+.item22 {
+  display: flex;              
+  flex-direction: column;       
+  align-items: center;          
+  text-align: center;           
+  text-decoration: none;
+  color: black;
+  cursor: pointer;      
+}
+
+.item22 img {
+  display: block;
+  width: 178px; 
+  margin-bottom: 8px;
+}
+
+
+.info_allergy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(44, 44, 44);
+    width: 90%;
+    line-height: 1.2;
+    margin-left: 5%;
+    margin-top: 150px;
+}
+
+
+
+.main-container {
+    max-width: 1400px; 
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+}

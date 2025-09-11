@@ -187,11 +187,11 @@ body{
 .info_txt{
     display: flex;
     flex-direction: row;
-    justify-content: left;   /* центрує елементи по горизонталі */
-    align-items: left;       /* центрує по вертикалі */
-    gap: 10%;                 /* простір між колонками */
+    justify-content: left;   
+    align-items: left;      
+    gap: 10%;                 
     padding-left: 55px ;
-    padding-top: 100px;           /* простір зверху і знизу */
+    padding-top: 100px;           
 }
 
 .social{
@@ -217,9 +217,6 @@ body{
     width: 190px;
 }
 
-.connections_info{
-
-}
 
 .social{
     display: flex;
