@@ -3,7 +3,7 @@ let drop_menu = document.querySelector('.drop_menu');
 let arrowImg = menu_txt.querySelector('.arrow-img');
 
 menu_txt.addEventListener('click', function(){
-    if (drop_menu.style.visibility === 'hidden'){
+    if (drop_menu.style.visibility === 'hidden' || drop_menu.style.visibility === ''){
         drop_menu.style.visibility = 'visible';
         menu_txt.style.fontWeight = 'bold';
         arrowImg.classList.add('rotated');
