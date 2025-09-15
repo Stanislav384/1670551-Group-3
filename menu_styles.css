@@ -5,6 +5,15 @@
 }
 
 
+html{
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .other_food {
     width: 19.5%;
     height: 1300px;
