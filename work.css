@@ -82,21 +82,13 @@ h5{
 }
 .work_3_1_li_div{
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 
 
 
-
-
-li{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
 
 
 
