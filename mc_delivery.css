@@ -29,15 +29,17 @@
 .main_block{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+
     margin-top: 30px;
-    margin-left: 8%
+    margin-left: 8%;
+    margin-right: 8%;
+    gap: 5%;
 }
 
 .photo1{
     width: 100%;
     height: auto;
+    
 }
 
 html{
@@ -57,8 +59,116 @@ html{
     margin-top: 30px;
 }
 
-.block1{
-    border-color: black;
+.block1, .block2, .block3{
+    border-color: rgba(0, 0, 0, 0.178);
     border-width: 1px;
     border-style: solid;
+    border-radius: 5px;
+
+}
+
+.block_text_main{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.block_text_under{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+
+.m_cont_2{
+    padding-top: 50px;
+    display:flex;
+    flex-direction: row;
+    margin-left: 8%;
+
+}
+
+.cont2_img{
+    width: 60%;
+    
+}
+
+.cont2_text{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 75%;
+}
+
+.cont2_btn{
+    background-color: #ffbc0d;
+    height: 50px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-top: 50px
+}
+
+.txt_order{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.order_cont{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    gap: 10%
+}
+
+.order_img{
+    width: 70%;
+
+}
+
+.order_btn{
+    background-color: #ffbc0d;
+    height: 50px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+}
+
+.more_info2{
+    display: flex;
+    flex-direction: row;
+    gap: 16.5%;
+    margin-left: 8%;
+
+}
+
+
+
+.info_btn{
+    background-color: #ffbc0d;
+    height: 50px;
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    text-decoration: none;
+    color: black;
+    margin-top: 70px;
+    
 }
